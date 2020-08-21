@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="theme-switch-wrapper">
+            <span id="toggle-icon">
+                <span class="toggle-text">Light Mode</span>
+                <i class="fas fa-sun" id="icon"></i>
+            </span>
+            <label class="theme-switch">
+                <input type="checkbox">
+                <div class="slider round"></div>
+            </label>
+        </div>
+
+
+
+        <h3 id="head-text">Machine Learning App</h3>
+        <section class="section">
+            <form id="form" method="post">
+                <input type="text" name="text" id="text" placeholder="url" required>
+                <input type="submit" value="submit">
+            </form>
+
+            <div class="flex">
+                <div class="show" id="show">
+                    <img src="" id="img" class="img" />
+                    <div class="bounding-box" id="bounding-box">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "machine-learning-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clarifai": "^2.9.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.2"
+  }
+}
