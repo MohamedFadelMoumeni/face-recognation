@@ -188,8 +188,11 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   cursor: pointer;
-
 }
+  img {
+    max-width: 500px;
+    object-fit: fill;
+  }
 
 @media screen and (max-width: 950px) {
   .section {
